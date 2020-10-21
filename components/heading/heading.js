@@ -8,9 +8,9 @@ const Heading = () => (
       <img src='/brett.jpg' alt='Brett Bloxom wants to work at GitLab' />
     </div>
     <div>
-      <h1>Brett Bloxom</h1>
-      <h2 className='text-gray-700'>Front-end Engineer</h2>
-      <p className='mb-0'>
+      <h1 className={styles.title}>Brett Bloxom</h1>
+      <h2 className={styles.jobTitle}>Front-end Engineer</h2>
+      <p className={styles.intent}>
         Applying for the role of{' '}
         <a href='https://about.gitlab.com/job-families/marketing/marketing-frontend-engineer/'>
           Front-end Engineer - Marketing

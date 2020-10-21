@@ -18,3 +18,30 @@
 .image img {
   @apply opacity-100 w-full h-full object-cover rounded-full block;
 }
+
+.jobTitle {
+  @apply text-gray-700;
+}
+
+.intent {
+  @apply mb-16;
+}
+
+@screen until-md {
+  .title {
+    font-size: 64px;
+  }
+  .jobTitle {
+    @apply text-h3;
+  }
+
+  .heading hr {
+    @apply my-8;
+  }
+}
+
+@screen until-sm {
+  .title {
+    font-size: 56px;
+  }
+}

@@ -1,0 +1,60 @@
+.projectHeading {
+  @apply max-w-screen-sm mx-auto flex flex-col place-items-center text-center pb-16;
+}
+
+.projectHeading::after {
+  content: '';
+  border-bottom: 0 solid #d2d6dc;
+}
+
+.projectHeading > * + * {
+  @apply mt-16;
+}
+
+.projectHeading p {
+  @apply mb-0;
+}
+
+.projectAuthor {
+  @apply w-full grid place-items-center text-left;
+}
+
+.projectAuthor > div {
+  @apply flex justify-center items-center;
+}
+
+.projectAuthorAvatar {
+  @apply relative inline-block align-top w-16 h-16 mr-4;
+}
+
+.projectAuthorAvatar::before {
+  @apply absolute left-0 top-0 rounded-full w-full h-full z-10 shadow-md;
+  content: '';
+}
+
+.projectAuthorAvatar img {
+  @apply opacity-100 w-full h-full object-cover rounded-full block;
+}
+
+.projectAuthor p {
+  @apply m-0 text-xs;
+}
+
+.projectAuthorName {
+  @apply font-bold text-gray-900;
+}
+
+.projectDate {
+  @apply text-gray-600;
+}
+
+.projectBody {
+  @apply text-base pt-16;
+}
+
+.projectBody p:first-of-type:first-letter {
+  @apply float-left font-bold pr-3 pt-3 text-gray-900;
+
+  font-size: 5.6rem;
+  line-height: 0.9;
+}

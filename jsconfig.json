@@ -1,0 +1,21 @@
+/**
+ * 1. This is because React is a global provided by next (we never import it)
+ */
+ {
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "jsx": "react",
+    "allowUmdGlobalAccess": true /* 1 */,
+    "baseUrl": ".",
+    "target": "es2020",
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules",
+    ".next",
+    "out",
+    "out_functions",
+    "out_publish",
+    "public"
+  ]
+}

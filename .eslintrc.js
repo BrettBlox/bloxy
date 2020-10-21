@@ -1,14 +1,13 @@
 /* eslint-disable quotes */
 /* eslint-disable prettier/prettier */
 module.exports = {
-  'parser': '@typescript-eslint/parser',
+  'extends': ['airbnb', 'prettier', 'prettier/react'],
+  'parser': 'babel-eslint',
   'parserOptions': {
-    'ecmaVersion': 2020, // Allows for the parsing of modern ECMAScript features
-    'sourceType': 'module', // Allows for the use of imports
+    'ecmaVersion': 2020,
     'ecmaFeatures': {
       'impliedStrict': true,
       'classes': true,
-      'jsx': true
     },
   },
   'env': {
@@ -16,23 +15,6 @@ module.exports = {
     'node': true,
     'jquery': true,
     'jest': true,
-  },
-  'plugins': ['html', 'prettier', 'react-hooks', 'import'],
-  'extends': [
-    'airbnb',
-    'prettier', 
-    'prettier/react', 
-  ],
-  'settings': {
-    'import/resolver': {
-      'node': {
-        'paths': ['.'],
-        'extensions': ['.js', '.jsx', '.ts', '.tsx'],
-      },
-      'react': {
-        version: 'detect' // Tells eslint-plugin-react to automatically detect the version of React to use
-      }
-    },
   },
   'rules': {
     'no-debugger': 0,
@@ -85,11 +67,10 @@ module.exports = {
     'jsx-a11y/accessible-emoji': 0,
     'react/require-default-props': 0,
     'react/prop-types': 0,
-    'react/no-danger': 0,
     'react/jsx-filename-extension': [
       1,
       {
-        'extensions': ['.tsx'],
+        'extensions': ['.js', '.jsx'],
       },
     ],
     'react/jsx-props-no-spreading': [1, {
@@ -134,5 +115,13 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': [2, {
       'controlComponents':['Field']
     }]
+  },
+  'plugins': ['html', 'prettier', 'react-hooks', 'import'],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["."]
+      }
+    },
   },
 }

@@ -6,6 +6,6 @@ description:
   the project through to completion.'
 link: 'https://www.bzbproducts.com/'
 role: 'Contributor'
-tools: ['Magento 2']
+tools: ['Magento 2', 'HTML', 'PHP', 'Javascript', 'Jquery', 'CSS']
 order: 14
 ---

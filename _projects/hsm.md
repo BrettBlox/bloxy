@@ -5,6 +5,6 @@ description:
   'I made a handful of meaningful contributions to the front-end of their site.'
 link: 'https://www.homeshoppingmalls.com/'
 role: 'Contributor'
-tools: ['Magento 2']
+tools: ['Magento 2', 'HTML', 'PHP', 'Javascript', 'Jquery', 'CSS']
 order: 19
 ---

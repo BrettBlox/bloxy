@@ -6,6 +6,6 @@ description:
   including making translations between their German & American facing products.'
 link: 'https://www.strengthshopusa.com/'
 role: 'Contributor'
-tools: ['Magento 2']
+tools: ['Magento 2', 'HTML', 'PHP', 'Javascript', 'Jquery', 'CSS']
 order: 18
 ---

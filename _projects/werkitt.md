@@ -12,6 +12,7 @@ description:
   forward."
 link: ''
 role: 'Contributor'
-tools: ['Shopify', 'React', 'NextJS', 'Laravel', 'TailwindCSS', 'Prismic']
+tools:
+  ['React', 'NextJS', 'GraphQL', 'Laravel', 'Shopify', 'TailwindCSS', 'Prismic']
 order: 23
 ---

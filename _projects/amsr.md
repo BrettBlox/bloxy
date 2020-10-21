@@ -7,6 +7,6 @@ description:
   functionality and pages throughout their site. Built with Magento 2.'
 link: 'https://www.oxygenconcentratorstore.com/'
 role: 'Contributor'
-tools: ['Magento 2']
+tools: ['Magento 2', 'HTML', 'PHP', 'Javascript', 'Jquery', 'CSS']
 order: 15
 ---

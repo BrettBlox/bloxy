@@ -1,5 +1,5 @@
 .heading {
-  @apply max-w-screen-sm mx-auto flex flex-col place-items-center text-center pb-16;
+  @apply max-w-screen-sm mx-auto flex flex-col place-items-center text-center mb-16;
 }
 
 .heading > * + div {
@@ -24,7 +24,15 @@
 }
 
 .intent {
-  @apply mb-16;
+  @apply m-0;
+}
+
+.contact {
+  @apply flex justify-around items-center max-w-xs mx-auto my-16;
+}
+
+.contact span {
+  @apply sr-only;
 }
 
 @screen until-md {
@@ -33,10 +41,6 @@
   }
   .jobTitle {
     @apply text-h3;
-  }
-
-  .heading hr {
-    @apply my-8;
   }
 }
 

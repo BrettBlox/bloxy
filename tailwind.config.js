@@ -1,7 +1,7 @@
 const { screens } = require('tailwindcss/defaultTheme')
 
 module.exports = {
-  purge: ['./components/**/*.tsx', './pages/**/*.tsx'],
+  purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
     // Theme breakpoints - includes defaults plus additions.
     screens: {
@@ -33,8 +33,6 @@ module.exports = {
       },
     },
   },
-
-  variants: {},
   future: {
     /**
      * @see https://tailwindcss.com/docs/upcoming-changes

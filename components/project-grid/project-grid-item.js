@@ -1,9 +1,12 @@
 // @ts-check
 const ProjectGridItem = ({ project }) => (
   <li className='p-10 shadow-md rounded-2xl list-none'>
-    <a href={project.link}>
-      <h3 className='text-h4'>{project.title}</h3>
-    </a>
+    {project.link && (
+      <a href={project.link}>
+        <h3 className='text-h4'>{project.title}</h3>
+      </a>
+    )}
+    {!project.link && <h3 className='text-h4'>{project.title}</h3>}
     <p>{project.description}</p>
     <p>
       <strong>Role:</strong> {project.role}

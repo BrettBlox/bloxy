@@ -1,5 +1,6 @@
 ---
 title: 'Aqua Realtime'
+company: 'Hive Network'
 description:
   'My first ever paid developer work. I was responsible for aggregating data
   collected from sensors into attactive charts and graphs using Vue and Chart.js. The
@@ -7,4 +8,5 @@ description:
 link: 'https://aquarealtime.com/software/'
 role: 'Contributor'
 tools: ['vue', 'mongodb']
+order: 1
 ---

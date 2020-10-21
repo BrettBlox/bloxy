@@ -29,6 +29,7 @@ export async function getStaticProps() {
     'link',
     'role',
     'tools',
+    'order',
   ])
 
   return {

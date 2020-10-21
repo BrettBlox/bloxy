@@ -1,6 +1,8 @@
+// @ts-check
 import Head from 'next/head'
 import { getAllProjects } from 'lib/api'
-import Header from 'components/header'
+import Heading from 'components/heading/heading'
+import ProjectGrid from 'components/project-grid/project-grid'
 
 const Home = ({ allProjects }) => {
   console.log(allProjects)
@@ -10,15 +12,8 @@ const Home = ({ allProjects }) => {
         <title>Brett Bloxom's Portfolio for GitLab</title>
       </Head>
       <div className='container py-32'>
-        <Header />
-        {allProjects.map((project) => (
-          <div>
-            {project.title}<br/>
-            {project.description}<br/>
-            {project.role}<br/>
-            {/* {[...project.tags]} */}
-          </div>
-        ))}
+        <Heading />
+        <ProjectGrid projects={allProjects} />
       </div>
     </>
   )
@@ -27,7 +22,14 @@ const Home = ({ allProjects }) => {
 export default Home
 
 export async function getStaticProps() {
-  const allProjects = getAllProjects(['title', 'slug', 'description', 'role'])
+  const allProjects = getAllProjects([
+    'title',
+    'slug',
+    'description',
+    'link',
+    'role',
+    'tools',
+  ])
 
   return {
     props: { allProjects },

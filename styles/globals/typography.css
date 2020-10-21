@@ -67,5 +67,5 @@ hr {
 }
 
 a {
-  @apply underline;
+  @apply underline cursor-pointer;
 }

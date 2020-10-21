@@ -1,6 +1,8 @@
+// @ts-check
+// @ts-expect-error
 import styles from 'styles/heading.module.css'
 
-const Header = () => (
+const Heading = () => (
   <header className={styles.heading}>
     <div className={styles.image}>
       <img src='/brett.jpg' alt='Brett Bloxom wants to work at GitLab' />
@@ -8,7 +10,7 @@ const Header = () => (
     <div>
       <h1>Brett Bloxom</h1>
       <h2 className='text-gray-700'>Front-end Engineer</h2>
-      <p className='mb-16'>
+      <p className='mb-0'>
         Applying for the role of{' '}
         <a href='https://about.gitlab.com/job-families/marketing/marketing-frontend-engineer/'>
           Front-end Engineer - Marketing
@@ -20,4 +22,4 @@ const Header = () => (
   </header>
 )
 
-export default Header
+export default Heading

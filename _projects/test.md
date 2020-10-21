@@ -1,10 +1,10 @@
 ---
 title: 'Aqua Realtime'
 description:
-  'A Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Praesent elementum
-  facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan
-  sit amet nulla facilities morbi tempus.'
+  'My first ever paid developer work. I was responsible for aggregating data
+  collected from sensors into attactive charts and graphs using Vue and Chart.js. The
+  link above takes you to a page with a few visuals of the work that I contributed.'
+link: 'https://aquarealtime.com/software/'
 role: 'Contributor'
-tags: ['vue', 'mongodb']
+tools: ['vue', 'mongodb']
 ---

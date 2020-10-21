@@ -1,0 +1,71 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  @apply text-base leading-normal text-gray-700;
+
+  /* font-family: 'Georgia'; */
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply leading-none font-extrabold tracking-tight text-gray-900;
+}
+
+/**
+ * The font size definitions are abstracted to tailwind.config.css
+ * This way, I am also able to utilize responsive font sizes to create
+ * the appearance of changing from h2 to h4 at viewport sizes, 
+ * ie `text-h5 md:text-h1`
+ */
+h1 {
+  @apply text-h1;
+}
+
+h2 {
+  @apply text-h2;
+}
+
+h3 {
+  @apply text-h3;
+}
+
+h4 {
+  @apply text-h4;
+}
+
+h5 {
+  @apply text-h5;
+}
+
+h6 {
+  @apply text-h6;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 1em;
+}
+
+strong {
+  @apply text-gray-900;
+}
+
+hr {
+  @apply border-gray-300 border-t my-16 w-full;
+}
+
+a {
+  @apply underline;
+}

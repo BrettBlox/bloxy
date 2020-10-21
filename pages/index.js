@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { getAllProjects } from 'lib/api'
-import styles from 'styles/project.module.css'
+import Header from 'components/header'
 
 const Home = ({ allProjects }) => {
   console.log(allProjects)
@@ -9,14 +9,17 @@ const Home = ({ allProjects }) => {
       <Head>
         <title>Brett Bloxom's Portfolio for GitLab</title>
       </Head>
-      {allProjects.map((project) => (
-        <>
-          {project.title}
-          {project.description}
-          {project.role}
-          {/* {[...project.tags]} */}
-        </>
-      ))}
+      <div className='container py-32'>
+        <Header />
+        {allProjects.map((project) => (
+          <div>
+            {project.title}<br/>
+            {project.description}<br/>
+            {project.role}<br/>
+            {/* {[...project.tags]} */}
+          </div>
+        ))}
+      </div>
     </>
   )
 }
@@ -24,7 +27,7 @@ const Home = ({ allProjects }) => {
 export default Home
 
 export async function getStaticProps() {
-  const allProjects = getAllProjects(['title', 'slug', 'description'])
+  const allProjects = getAllProjects(['title', 'slug', 'description', 'role'])
 
   return {
     props: { allProjects },

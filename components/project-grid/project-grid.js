@@ -1,7 +1,7 @@
 // @ts-check
 import ProjectGridItem from 'components/project-grid/project-grid-item'
 
-export const ProjectGrid = ({ projects }) => (
+const ProjectGrid = ({ projects }) => (
   <>
     <h2 className='text-center text-h3'>
       A list of projects I have had the joy of contributing to in my development

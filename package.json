@@ -11,6 +11,7 @@
     "lint:fix": "eslint ./components/** ./pages/** ./lib/** -c .eslintrc.js --fix --ext js,jsx,tsx"
   },
   "dependencies": {
+    "framer-motion": "^2.9.4",
     "gray-matter": "^4.0.2",
     "next": "9.5.5",
     "next-on-netlify": "^2.5.1",

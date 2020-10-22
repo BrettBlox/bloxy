@@ -20,7 +20,7 @@
 }
 
 .jobTitle {
-  @apply text-gray-700;
+  @apply text-secondary;
 }
 
 .intent {

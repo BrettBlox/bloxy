@@ -41,11 +41,11 @@
 }
 
 .projectAuthorName {
-  @apply font-bold text-gray-900;
+  @apply font-bold text-primary;
 }
 
 .projectDate {
-  @apply text-gray-600;
+  @apply text-secondary;
 }
 
 .projectBody {
@@ -53,7 +53,7 @@
 }
 
 .projectBody p:first-of-type:first-letter {
-  @apply float-left font-bold pr-3 pt-3 text-gray-900;
+  @apply float-left font-bold pr-3 pt-3 text-primary;
 
   font-size: 5.6rem;
   line-height: 0.9;

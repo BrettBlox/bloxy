@@ -3,6 +3,12 @@ const { screens } = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: ['./components/**/*.js', './pages/**/*.js'],
   theme: {
+    colors: {
+      primary: 'var(--color-primary)',
+      secondary: 'var(--color-secondary)',
+      accent: 'var(--color-accent)',
+      background: 'var(--color-bg)',
+    },
     // Theme breakpoints - includes defaults plus additions.
     screens: {
       xs: '375px',

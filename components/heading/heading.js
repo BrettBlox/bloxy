@@ -46,7 +46,7 @@ const Heading = () => (
           <Mobile className='h-12' />
         </a>
       </div>
-      <div className='w-full mt-16'>
+      <div className='w-full mt-16 mb-8'>
         <a
           href='https://github.com/BrettBlox/bloxy'
           className='flex justify-center items-center'

@@ -5,6 +5,7 @@ import Mobile from 'components/svg/mobile'
 import ToggleTheme from 'components/theme/toggle-theme'
 // @ts-expect-error
 import styles from 'styles/heading.module.css'
+import Github from 'components/svg/github'
 
 const Heading = () => (
   <header className={styles.heading}>
@@ -43,6 +44,15 @@ const Heading = () => (
         <a href='tel:9187285875'>
           <span>Click here to call me at 9187285875</span>
           <Mobile className='h-12' />
+        </a>
+      </div>
+      <div className='w-full mt-16'>
+        <a
+          href='https://github.com/BrettBlox/bloxy'
+          className='flex justify-center items-center'
+        >
+          <Github className='h-12 mr-4' />
+          view source code
         </a>
       </div>
     </div>

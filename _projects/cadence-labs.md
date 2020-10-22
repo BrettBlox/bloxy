@@ -1,10 +1,11 @@
 ---
 title: 'Cadence Labs'
-company: 'Cadence Labs'
+employer: 'Cadence Labs'
 description:
-  'A work in progress, yet to be launched. I am responsible for implementing a full website redesign.'
+  'A work in progress, yet to be launched. I am responsible for implementing a
+  full website redesign.'
 link: ''
-role: 'Contributor'
+role: 'Front-end Engineer'
 tools: ['Wordpress']
 order: 16
 ---

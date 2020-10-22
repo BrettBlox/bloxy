@@ -1,6 +1,6 @@
 ---
 title: 'Werkitt'
-company: 'Cadence Labs'
+employer: 'Cadence Labs'
 description:
   "I don't think I can say much about this application as it is yet to be
   launched, but is pretty awesome. A headless ecommerce site built with Next.js,
@@ -11,7 +11,7 @@ description:
   ecommerce development and will be our foundation for all projects moving
   forward."
 link: ''
-role: 'Contributor'
+role: 'Front-end Engineer'
 tools:
   ['React', 'NextJS', 'GraphQL', 'Laravel', 'Shopify', 'TailwindCSS', 'Prismic']
 order: 23

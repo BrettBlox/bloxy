@@ -1,10 +1,10 @@
 ---
 title: 'Home Shopping Malls'
-company: 'Cadence Labs'
+employer: 'Cadence Labs'
 description:
   'I made a handful of meaningful contributions to the front-end of their site.'
 link: 'https://www.homeshoppingmalls.com/'
-role: 'Contributor'
+role: 'Front-end Engineer'
 tools: ['Magento 2', 'HTML', 'PHP', 'Javascript', 'Jquery', 'CSS']
 order: 19
 ---

@@ -9,7 +9,10 @@ const ProjectGridItem = ({ project }) => (
     {!project.link && <h3 className='text-h4'>{project.title}</h3>}
     <p className='justify-self-start normal-case'>{project.description}</p>
     <p className='mt-auto mb-3'>
-      <strong>Role:</strong> {project.role}
+      <strong>My Employer:</strong> {project.employer}
+    </p>
+    <p className='mb-3'>
+      <strong>role:</strong> {project.role}
     </p>
     <ul>
       <p className='mb-0'>

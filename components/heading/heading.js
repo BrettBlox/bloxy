@@ -50,6 +50,8 @@ const Heading = () => (
         <a
           href='https://github.com/BrettBlox/bloxy'
           className='flex justify-center items-center'
+          target='_blank'
+          rel='noreferrer'
         >
           <Github className='h-12 mr-4' />
           view source code

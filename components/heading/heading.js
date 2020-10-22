@@ -34,15 +34,15 @@ const Heading = () => (
           rel='noreferrer'
         >
           <span>Click here to navigate to my linkedin profile</span>
-          <Linkedin className='h-12 transition-opacity duration-300 hover:opacity-75' />
+          <Linkedin className='h-12' />
         </a>
         <a href='mailto:brettbloxom@gmail.com'>
           <span>Click here to email me at brettbloxom@gmail.com</span>
-          <Email className='h-12 transition-opacity duration-300 hover:opacity-75' />
+          <Email className='h-12' />
         </a>
         <a href='tel:9187285875'>
           <span>Click here to call me at 9187285875</span>
-          <Mobile className='h-12 transition-opacity duration-300 hover:opacity-75' />
+          <Mobile className='h-12' />
         </a>
       </div>
     </div>

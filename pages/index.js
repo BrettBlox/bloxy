@@ -2,6 +2,7 @@
 import Head from 'next/head'
 import { getAllProjects } from 'lib/api'
 import Heading from 'components/heading/heading'
+import Writing from 'components/writing/writing'
 import ProjectGrid from 'components/project-grid/project-grid'
 
 const Home = ({ allProjects }) => (
@@ -12,6 +13,7 @@ const Home = ({ allProjects }) => (
     <div className='bg-background '>
       <div className='container py-32'>
         <Heading />
+        <Writing />
         <ProjectGrid projects={allProjects} />
       </div>
     </div>

@@ -8,6 +8,7 @@ module.exports = {
       secondary: 'var(--color-secondary)',
       accent: 'var(--color-accent)',
       background: 'var(--color-bg)',
+      card: 'var(--color-card-bg)',
     },
     // Theme breakpoints - includes defaults plus additions.
     screens: {

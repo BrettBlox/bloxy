@@ -3,10 +3,12 @@
   --color-secondary: #4a5568;
   --color-accent: #e2e8f0;
   --color-bg: #f7fafc;
+  --color-card-bg: #f7fafc;
 }
 
 [data-theme='dark'] {
   --color-primary: #f7fafc;
-  --color-secondary: #CBD5E0;
+  --color-secondary: #cbd5e0;
   --color-bg: #1a202c;
+  --color-card-bg: #2d3748;
 }

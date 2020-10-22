@@ -1,6 +1,6 @@
 // @ts-check
 const ProjectGridItem = ({ project }) => (
-  <li className='p-10 shadow-md rounded-2xl list-none flex flex-col uppercase text-xs transition-all duration-300 transform hover:scale-105'>
+  <li className='p-10 shadow-md bg-card rounded-2xl list-none flex flex-col uppercase text-xs transition-all duration-300 transform lg:hover:scale-105'>
     {project.link && (
       <a href={project.link} target='_blank' rel='noreferrer'>
         <h3 className='text-h4'>{project.title}</h3>

@@ -6,8 +6,8 @@ description:
   launched, but is pretty awesome. A headless ecommerce site built with Next.js,
   Shopify, and a Laravel backend. I have been responsible for adding most of the
   front-end Next.js portion of the site as well as building a React application
-  served from the Laravel app that was embedded into the Shopify dashboard that
-  helps manage company internals. This site has been a deep dive into headless
+  served from the Laravel app that was embedded into the Shopify dashboard for
+  managing company internals. This site has been a deep dive into headless
   ecommerce development and will be our foundation for all projects moving
   forward."
 link: ''

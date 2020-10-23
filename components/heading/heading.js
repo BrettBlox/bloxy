@@ -6,6 +6,7 @@ import ToggleTheme from 'components/theme/toggle-theme'
 // @ts-expect-error
 import styles from 'styles/heading.module.css'
 import Github from 'components/svg/github'
+import Resume from 'components/svg/resume'
 
 const Heading = () => (
   <header className={styles.heading}>
@@ -46,15 +47,24 @@ const Heading = () => (
           <Mobile className='h-12' />
         </a>
       </div>
-      <div className='w-full mt-16 mb-8'>
+      <div className='w-full mt-16 mb-8 flex justify-center'>
         <a
           href='https://github.com/BrettBlox/bloxy'
-          className='flex justify-center items-center'
+          className='flex justify-center items-center mr-16'
           target='_blank'
           rel='noreferrer'
         >
           <Github className='h-12 mr-4' />
-          view source code
+          source code
+        </a>
+        <a
+          href='brett-bloxom-developer-resume.pdf'
+          className='flex justify-center items-center'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <Resume className='h-12 mr-4' />
+          resume
         </a>
       </div>
     </div>

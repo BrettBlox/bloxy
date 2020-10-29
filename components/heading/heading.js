@@ -1,4 +1,5 @@
 // @ts-check
+import Image from 'next/image'
 import Linkedin from 'components/svg/linkedin'
 import Email from 'components/svg/email'
 import Mobile from 'components/svg/mobile'
@@ -11,7 +12,12 @@ import Resume from 'components/svg/resume'
 const Heading = () => (
   <header className={styles.heading}>
     <div className={styles.image}>
-      <img src='/brett.jpg' alt='Brett Bloxom wants to work at GitLab' />
+      <Image
+        src='/brett.jpg'
+        alt='Brett Bloxom wants to work at GitLab'
+        width={400}
+        height={400}
+      />
     </div>
     <div>
       <h1 className={styles.title}>Brett Bloxom</h1>

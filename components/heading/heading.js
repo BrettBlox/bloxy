@@ -16,7 +16,7 @@ const Heading = () => (
     <div>
       <h1 className={styles.title}>Brett Bloxom</h1>
       <h2 className={styles.jobTitle}>Front-end Engineer</h2>
-      <p className={styles.intent}>
+      {/* <p className={styles.intent}>
         Applying for the role of{' '}
         <a href='job-description.pdf' target='_blank' rel='noreferrer'>
           Front-end Engineer - Marketing
@@ -25,7 +25,7 @@ const Heading = () => (
         <a href='https://about.gitlab.com/' target='_blank' rel='noreferrer'>
           GitLab
         </a>
-      </p>
+      </p> */}
       <div className='w-full flex justify-center mt-16'>
         <ToggleTheme />
       </div>
